@@ -5,8 +5,72 @@
 
 html,
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 /* Add styles here! */
+header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+main {
+  background-color: darkgray;
+  border-top: 8px solid gray ;
+  padding-top: 48px;
+  min-height: 100%;
+}
+
+strong {
+  color: teal;
+}
+
+.indented-heading {
+  background-color: orange;
+  margin-top: 8px;
+  margin-left: -10px;
+  padding-left: 42px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 8px red solid;
+  max-width: max-content;
+}
+
+.intro-chunk {
+  max-width: 400px;
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+p {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+
+h1, h2 {
+  padding-left: 32px;
+}
+
+.card {
+  padding-top: 1px;
+  border-bottom: 8px solid gray;
+  background-color: whitesmoke;
+}
+
+.title {
+  margin-bottom: 32px;
+}
